@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+body {
+    background-color: #a9bbfa;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 600px;
+    width: 350px;
+    background-color: #363636;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 1.9em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.RmvBtn {
+    width: 180px;
+    background-color: #CD30C0;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    height: 40px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.Item-List{
+    height: 50vh;
+    margin-bottom: 10px;
+}
+
+.Add-Box-Cont{
+ display: flex;
+ justify-content: space-around;
+ padding: 15px;
+ 
+ gap: 10px;
+}
+
+.AddBox{
+    height: 30px;
+    width: 228px;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 1em;
+   font-weight:500;
+    
+}
+.AddBtn {
+    width: 60px;
+    background-color: #CD30C0;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    height: 36px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.Item-List{
+    padding: 0px 20px;
+    
+}
+.rmvItem{
+    width:  45px;
+    background-color: red;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    height: 37px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+.list-text{
+    width: 230px;
+    color: white;
+    background-color: grey;
+    padding: 5px 7px;
+}
+.Item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
